@@ -1,7 +1,7 @@
 Drought for Serve
 =================
 
-Brings together Drought and Serve.
+Brings together Drought and Serve. Two projects that I like to use to start a live design. Can either use it in a RoR project, or use Serve to export the HTML/CSS to use in something else.
 
 What is Drought?
 ----------------
