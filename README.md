@@ -8,7 +8,7 @@ What is Drought?
 
 Drought is a barebones HTML/CSS created by James Fleeting. It starts with a basic two column layout, normalize.css and lots of great standards from H5BP. It also includes a typical HTML structure and basic CSS.
 
-<https://github.com/jamesfleeting/Drought>
+<http://jamesfleeting.github.com/Drought/>
 
 What is Serve?
 --------------
