@@ -1,8 +1,21 @@
+Drought for Serve
+=================
+
+Brings together Drought and Serve.
+
+What is Drought?
+----------------
+
+Drought is a barebones HTML/CSS created by James Fleeting. It starts with a basic two column layout, normalize.css and lots of great standards from H5BP. It also includes a typical HTML structure and basic CSS.
+
+<https://github.com/jamesfleeting/Drought>
+
 What is Serve?
-=============
+--------------
 
 Serve is an open-source rapid prototyping framework for Web applications. It makes it easy to prototype functionality without writing a single line of backend code.
 
+<http://get-serve.com/>
 
 How do I install and run Serve?
 -------------------------------
