@@ -1,0 +1,74 @@
+DOCTYPE html
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+head
+  meta charset="utf-8"
+  meta name="description" content=""
+  meta name="viewport" content="width=device-width"
+  /! Facebook
+  meta property="og:title" content=""
+  meta property="og:description" content=""
+  meta property="og:url" content="/"
+  meta property="og:image" content=""
+  /! /Facebook
+
+  title Drought - HTML &amp; CSS Barebones
+
+  link rel="author" href="/humans.txt"
+  link rel="dns-prefetch" href="//ajax.googleapis.com"
+  link rel="sitemap" href="sitemap.xml" type="application/xml" title="Sitemap"
+  / link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed/"
+
+  /! Remove if you have a favicon.ico in your root dir
+  link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
+
+  link rel="stylesheet" href="/stylesheets/screen.css"
+
+body
+  /[if lt IE 7 ]
+    p class="chromeframe"
+      | You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+
+  header role="banner"
+    hgroup
+      h1: a[href="/" title="Drought | HTML &amp; CSS Barbones"] Drought
+      h2 HTML &amp; CSS Barebones
+
+    nav role="navigation"
+      ul
+        li: a[href="/" title="Drought"] Home
+        li: a[href="/" title="About"] About
+        li: a[href="/" title="Contact"] Contact
+
+  div class="main" role="main"
+    h2 = @title
+
+    == yield
+  /! #main
+
+  aside role="complementary"
+    h3 Lorem Ipsum Stuff
+
+    ul
+      li Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+      li Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+      liP hasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+      li Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
+
+  footer role="contentinfo"
+    p
+      | &copy; Copyright 2012 <a href="http://jamesfleeting.com" title="James Fleeting">James Fleeting</a>, All Rights Reserved.
+
+  script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"
+  javascript:
+    window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')
+  script src="js/plugins.js"
+  script src="js/main.js"
+
+  javascript:
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
